@@ -19,14 +19,15 @@ I am actively updating and improving this repository. If you find any bugs or ha
 ## 🔥 Getting Started
 ### 1. Clone the code and prepare the environment
 ```bash
-git clone https://github.com/Mrkomiljon/Webcam_Live_Portrait.git
-cd Webcam_Live_Portrait
+git clone https://github.com/Mrkomiljon/Live_Portrait_Monitor.git
+cd Live_Portrait_Monitor
 
 # create env using conda
 conda create -n LivePortrait python==3.9.18
 conda activate LivePortrait
 # install dependencies with pip
 pip install -r requirements.txt
+pip install mss # for using monitor
 ```
 
 ### 2. Download pretrained weights
@@ -70,10 +71,14 @@ https://github.com/Mrkomiljon/Webcam_Live_Portrait/assets/92161283/7c4daf41-838d
 Or, you can change the input by specifying the `-s` and `-d` arguments come from webcam:
 
 ```bash
-python inference.py -s assets/examples/source/MY_photo.jpg 
+# to use monitor
+python inference_monitor.py -s assets/examples/source/MY_photo.jpg 
 
 # or disable pasting back
-python inference.py -s assets/examples/source/s9.jpg -d assets/examples/driving/d0.mp4 --no_flag_pasteback
+python inference_monitor.py -s assets/examples/source/s9.jpg -d assets/examples/driving/d0.mp4 --no_flag_pasteback
+
+# to use original code for inference 
+python inference_org.py -s assets/examples/source/s9.jpg -d assets/examples/driving/d0.mp4 --no_flag_pasteback
 
 # more options to see
 python inference.py -h
