@@ -15,7 +15,7 @@ https://github.com/Mrkomiljon/Webcam_Live_Portrait/assets/92161283/4e16fbc7-8c13
 ## Introduction
 This repo, named **Webcam Live Portrait**, 
 Author paper [LivePortrait: Efficient Portrait Animation with Stitching and Retargeting Control](https://arxiv.org/pdf/2407.03168).
-I am actively updating and improving this repository for research. If you find any bugs or have suggestions, welcome to raise issues or submit pull requests (PR) 💖.
+I am actively updating and improving this repository for research only. If you find any bugs or have suggestions, welcome to raise issues or submit pull requests (PR) 💖.
 
 ## 🔥 Getting Started
 ### 1. Clone the code and prepare the environment
