@@ -97,9 +97,9 @@ python inference_org.py -s assets/examples/source/s9.jpg -d assets/examples/driv
 python inference_org.py -h
 ```
 ```bash
-# For good result, please play with padding for driver head
-    y1 = max(0, y1 - 320) # Upper part of the head
-    y2 = min(frame.shape[0], y2 + 550)  # Lower part of the head
+# For good result, please play with [padding](https://github.com/Mrkomiljon/Live_Portrait_Monitor/blob/main/src/crop.py) for driver head
+    y1 = max(0, y1 - 320)                # Upper part of the head
+    y2 = min(frame.shape[0], y2 + 550)   # Lower part of the head
     x1 = max(0, x1 - 360)                # Both sides of the head
     x2 = min(frame.shape[1], x2 + 360)   # Both sides of the head
 
@@ -108,8 +108,6 @@ python inference_org.py -h
 
 ### 5. Inference speed evaluation 🚀🚀🚀
 I will provide also a script to evaluate the inference speed of each module:
-
-
 
 
 ## Acknowledgements
