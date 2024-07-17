@@ -1,6 +1,6 @@
 # Live_Portrait_Monitor
 
-# Monitor result
+# Monitor results
 
 https://github.com/user-attachments/assets/80020a36-6ec9-4efa-abf7-c1adbbfc6f39
 
