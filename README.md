@@ -1,7 +1,7 @@
 # Live_Portrait_Monitor
 
 
-# Webcam result
+# Webcam [result](https://github.com/Mrkomiljon/Webcam_Live_Portrait)
 
 https://github.com/Mrkomiljon/Webcam_Live_Portrait/assets/92161283/4e16fbc7-8c13-4415-b946-dd731ac00b6e
     
