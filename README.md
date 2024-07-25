@@ -113,4 +113,8 @@ I will provide also a script to evaluate the inference speed of each module:
 ## Acknowledgements
 I would like to thank the contributors of [FOMM](https://github.com/AliaksandrSiarohin/first-order-model), [Open Facevid2vid](https://github.com/zhanglonghao1992/One-Shot_Free-View_Neural_Talking_Head_Synthesis), [SPADE](https://github.com/NVlabs/SPADE), [InsightFace](https://github.com/deepinsight/insightface) repositories, for their open research and main [authors](https://github.com/KwaiVGI/LivePortrait).
 
+（Some demo images/videos above are sourced from image websites/repos. If there is any infringement, I will immediately remove them and apologize.）
+
+
+
 
