@@ -105,6 +105,11 @@ python inference_org.py -h
 ```
 
 ### 5. Improved inference speed 🚀🚀🚀
+
+
+https://github.com/user-attachments/assets/9b674f43-7c3c-4689-828c-311e56038afd
+
+
 https://github.com/user-attachments/assets/d541c4b4-dd09-4088-a97b-77d5f29f1695
 
 - 2024/07/26: Windows integrated package, one-click run without installation, supporting TensorRT. Thanks to [author](https://github.com/warmshao/FasterLivePortrait) for supporting TensorRT.
