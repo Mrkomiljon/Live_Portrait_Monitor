@@ -1,5 +1,5 @@
 # Live_Portrait_Monitor
-
+If you find this project useful, please give it a star ❤️❤️
 # Monitor results
 
 https://github.com/user-attachments/assets/80020a36-6ec9-4efa-abf7-c1adbbfc6f39
@@ -21,7 +21,8 @@ https://github.com/Mrkomiljon/Webcam_Live_Portrait/assets/92161283/4e16fbc7-8c13
 
 ## 🔥 Updates
 - **`2024/07/10`**: 🔥 I released the initial version of the inference code for webcam. 
-- **`2024/07/16`**: 🔥 I released the initial version of the inference code for monitor. Continuous updates, stay tuned!
+- **`2024/07/16`**: 🔥 I released the initial version of the inference code for monitor.
+- **`2024/07/26`**: 🔥 I released windows package for faster inference speed. Continuous updates, stay tuned!
 
 
 ## Introduction
@@ -79,8 +80,6 @@ If the script runs successfully, you will get an output mp4 file named `animatio
 
 https://github.com/Mrkomiljon/Webcam_Live_Portrait/assets/92161283/7c4daf41-838d-4eb8-a762-9188cd337ee6
 
-
-
 Or, you can change the input by specifying the `-s` and `-d` arguments come from webcam:
 
 ```bash
@@ -105,9 +104,21 @@ python inference_org.py -h
 
 ```
 
+### 5. Improved inference speed 🚀🚀🚀
+https://github.com/user-attachments/assets/d541c4b4-dd09-4088-a97b-77d5f29f1695
 
-### 5. Inference speed evaluation 🚀🚀🚀
-I will provide also a script to evaluate the inference speed of each module:
+- 2024/07/26: Windows integrated package, one-click run without installation, supporting TensorRT. Thanks to [author](https://github.com/warmshao/FasterLivePortrait) for supporting TensorRT.
+- [Optional] If you have already installed CUDA and cuDNN on your Windows computer, please skip this step. I have only verified this on CUDA 12.4. If you haven't installed CUDA or if you encounter CUDA-related errors, you need to follow - 
+  these steps for installation::
+- Download cuda12.2, double-click the exe and follow the default settings to install.
+- Download the cudnn zip file, extract it and copy the lib, bin, and include folders from the cudnn folder to the CUDA12.4 folder (default is C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4)
+- [Optional] Install ffmpeg
+- Download [Live_Portrait_Monitor](https://drive.google.com/drive/folders/16MF3TijndHVG73U3Ms5WBW7QVPcaKElb?usp=drive_link) zip file and extract it.
+- Enter FasterLivePortrait_High_FPS
+- For real-time Monitor operation, double-click Monitor.bat. If you want to change the target image, run in command line: camera.bat assets/examples/source/s1.jpg
+- Note!!! There should be a driver face video on Monitor[1] or [2].
+- I have adapted the code for readability on monitors and introduced some functionalities. You can easily use it.
+
 
 
 ## Acknowledgements
