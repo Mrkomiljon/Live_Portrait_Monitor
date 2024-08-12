@@ -1,6 +1,6 @@
 # Live_Portrait_Monitor
 If you find this project useful, please give it a star ❤️❤️
-# Monitor results
+# Monitor [results](https://github.com/Mrkomiljon/Live_Portrait_Monitor)
 
 https://github.com/user-attachments/assets/80020a36-6ec9-4efa-abf7-c1adbbfc6f39
 
